@@ -36,7 +36,7 @@ $(document).ready(function() {
 		$(this).find('.pf-name').toggleClass('active-green');
 	});
 
-	//Event scroling
+	//Event scrolling
 	$(window).on('scroll', function(){
 		var docStop = $(this).scrollTop();
 		var sectPos = sectionPosition($('#features-section'));
@@ -151,7 +151,7 @@ $(document).ready(function() {
 		}
 	}]);
 
-	//slow scroll on  target
+	//slow scroll on target '#'
 	$('a[href^="#"]').click(function(){
 		var target = $(this).attr('href');
 		$('html, body').animate({scrollTop: $(target).offset().top}, 800);

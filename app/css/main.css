@@ -215,12 +215,21 @@ section {
   .down-prev span {
     font-size: 28px;
     color: #0eb493;
-    -webkit-animation: arrowDomn 3s infinite;
-    -moz-animation: arrowDomn 3s infinite;
-    -o-animation: arrowDomn 3s infinite;
-    animation: arrowDomn 3s infinite; }
+    position: relative;
+    -webkit-animation: arrow-down 3s infinite;
+    -moz-animation: arrow-down 3s infinite;
+    -o-animation: arrow-down 3s infinite;
+    animation: arrow-down 3s infinite; }
 
-@keyframes arrowDomn {
+@keyframes arrow-down {
+  0% {
+    top: 0; }
+  50% {
+    top: 6px; }
+  100% {
+    top: 0; } }
+
+@-moz-keyframes arrow-down {
   0% {
     position: relative;
     top: 0; }
