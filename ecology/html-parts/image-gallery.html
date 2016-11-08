@@ -1,0 +1,18 @@
+
+<div class="body">
+	<div class="wrapper" id="wrapper" >
+		<section>
+			<div class="container-gallery container-flex"><!-- flexbox -->
+				<div class="item theme-class-default"  ng-repeat = "item in imgItem">
+					<div class="img-wrap">
+						<img ng-src="{{item.itemImgSrc}}"  draggable="false">
+					</div>
+
+				</div>
+			</div><!--End container-flex-->
+		</section>
+		 <!--Include FBG-->
+		<ng-include src="'./html-parts/include-parts/fbg.html'"></ng-include>
+	</div><!-- end wrapper -->
+</div>
+

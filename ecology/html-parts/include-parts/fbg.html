@@ -1,0 +1,33 @@
+<div class = "fbg" ng-controller="functionCtrl">
+  <div class = "fbg resize clearfix">
+
+    <div class = "block"> 	   <!-- Block 1-->
+
+      <div class="small-gallery clearfix" ng-if="currentLocation != statusLocationGallery">
+        <h2><a class="referral-a" href="#gallery">Image Gallery</a></h2>
+        <div ng-repeat="item in imgItem | limitTo:6">
+          <img ng-src="{{item.itemImgSrc}}" alt="" />
+        </div>
+      </div>
+
+      <h2>Contact Info</h2>
+      <p>
+        <strong>Phone:</strong> +1234567<br>
+        <strong>Adress:</strong> 123 Put Your Address Here<br>
+        <strong>Email:</strong> green@mail.com<br>
+        <a href = "#contactUs"> contact page</a>
+      </p>
+    </div>
+
+    <div class = "block">     <!-- Block 2-->
+      <h2><a class="referral-a" href="#postPage" ng-click="showIndex(randomInteger);">{{posts[randomInteger].header}}</a></h2>
+      <p>{{posts[randomInteger].description}}</p>
+    </div>
+
+    <div class = "block">     <!-- Block 3-->
+      <h2><a class="referral-a" href="#postPage" ng-click="showIndex(randomIntegerOther);">{{posts[randomIntegerOther].header}}</a></h2>
+      <p>{{posts[randomIntegerOther].description}}</p>
+    </div>
+
+  </div><!--end fbg_resize-->
+</div><!--End fbg-->

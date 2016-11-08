@@ -1,0 +1,59 @@
+[
+  {
+    "itemHeadline": "Item 1",
+    "itemImgSrc": "images/post-biodiesel.jpg",
+    "itemDescription": "Description 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 2",
+    "itemImgSrc":"images/post-solar-energy.jpg",
+    "itemDescription": "Description 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at eius expedita cum, quaerat dolore?",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 3",
+    "itemImgSrc": "images/post-waterfall.png",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 4",
+    "itemImgSrc": "images/post-forest.png",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 5",
+    "itemImgSrc": "images/post-living.jpg",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 6",
+    "itemImgSrc": "images/post-vert.jpg",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 7",
+    "itemImgSrc": "images/post-tram.jpg",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  },
+  {
+    "itemHeadline": "Item 8",
+    "itemImgSrc": "images/post-laptop.jpg",
+    "itemDescription": "Description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat doloremque, debitis possimus expedita ea atque.",
+    "readMoreHeadline": "Read more",
+    "urlReadMore": "/"
+  }
+
+]

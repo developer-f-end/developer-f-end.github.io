@@ -1,0 +1,33 @@
+
+<div class="body">
+  <div class="body resize clearfix">
+      <div class="left">
+
+        <div class="post" ng-repeat="post in posts">
+          <h2 class="hyper-news">{{post.header}}</h2>
+
+          <div class="date-news-block">
+            <span>{{post.date}}</span>
+          </div>
+          <a class="post-img-cont" href="#postPage" ng-click="showIndex($index);">
+            <img class="img-responsive" ng-src="{{post.urlImage}}" alt="">
+            <div class="overlay-block">read more</div>
+          </a>
+          <div class="clr"></div>
+          <p>
+            {{post.description}}
+          </p>
+
+          <p><a href="#postPage" ng-click="showIndex($index);">Read more</a></p>
+        </div>
+
+      </div><!--End left-->
+        <div class="right">
+          <ng-include src="'./html-parts/include-parts/sidebar-nav.html'"></ng-include>
+        </div><!--End right-->
+    </div><!--End body_resize-->
+
+  <!-- Include FBG-->
+  <ng-include src="'./html-parts/include-parts/fbg.html'"></ng-include>
+
+</div><!--End body-->

@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="eco-app">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Green</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- *plugin 'userev' concat your dev css -->
+  <!-- build:css css/style.css -->
+  <link rel="stylesheet" href="css/gallery.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- endbuild -->
+
+</head>
+<body>
+  <div class="main" ng-controller="dataCtrl">
+    <div class="header">
+      <div class="logo resize">
+        <h1>
+          <a href="/" title="Home" ><span>{{siteNameF}}</span>{{siteNameB}}<br></a>
+          <span class="slogan" ng-bind="siteSlogan"></span>
+        </h1>
+      </div>
+      <div class="header-inner">
+        <div class="header resize">
+          <div class="nav-panel clearfix">
+            <div class="menu">
+              <ul>
+                <li class="current" target="home"><a href="#/" title="Home">Home</a></li>
+                <li target="news"><a href="#news" title="News">News</a></li>
+                <li target="aboutUs"><a href="#aboutUs" title="About Us">About Us</a></li>
+                <li target="contactUs"><a href="#contactUs" title="Contact Us">Contact Us</a></li>
+                <li target="gallery"><a href="#gallery" title="images gallery">Gallery</a></li>
+              </ul>
+            </div>
+            <!--End menu-->
+            <div class="search">
+              <form id="form1" name="form1" method="post" action="#">
+                <label><input type="text" name="q" class="keywords" id="text-to-find" placeholder="search...">
+                  <input type="image" name="b" class="button" src="images/search.png">
+                </label>
+              </form>
+            </div>
+            <!--End search-->
+          </div>
+        </div>
+        <!--end  header_resize--></div>
+    </div><!--End header-->
+
+

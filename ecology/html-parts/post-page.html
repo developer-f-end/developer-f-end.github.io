@@ -1,0 +1,21 @@
+<div class="body">
+	<div class="body resize">
+		<div class="post" >
+			<h2 class="hyper-news">{{posts[_Index].header}}</h2>
+
+			<div class="date-news-block">
+				<span>{{posts[_Index].date}}</span>
+			</div>
+			<img class="img-responsive" ng-src="{{posts[_Index].urlImage}}" alt="{{posts[_Index].header}}">
+
+			<p>
+				{{posts[_Index].text}}
+			</p>
+
+		</div>
+
+	</div>
+	<!-- Include FBG-->
+	<ng-include src="'./html-parts/include-parts/fbg.html'"></ng-include>
+</div>
+

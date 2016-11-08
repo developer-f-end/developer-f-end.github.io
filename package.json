@@ -1,6 +1,6 @@
 {
   "name": "LandingPage",
-  "vershion": "0.1.2",
+  "vershion": "1.2.0",
   "devDependencies": {
     "angular": "^1.5.5",
     "bootstrap": "^3.3.6",
