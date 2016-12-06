@@ -77,7 +77,7 @@ var app = angular.module("eco-app", ["ngRoute"]);
         $scope.siteNameB = "GREEN";
         $scope.siteSlogan = "You Live More Sustainably";
 
-
+         //rels 
         $http.get('./data/news.json').success(function(data) {
 
            var dataPosts =  $scope.posts = data,
