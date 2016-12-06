@@ -10,7 +10,7 @@ var app = angular.module("eco-app", ["ngRoute"]);
         $scope.siteSlogan = "You Live More Sustainably";
 
 
-        $http.get('../data/news.json').success(function(data) {
+        $http.get('./data/news.json').success(function(data) {
 
            var dataPosts =  $scope.posts = data,
                randomVar = Math.random() * 10,
@@ -35,7 +35,7 @@ var app = angular.module("eco-app", ["ngRoute"]);
         });
 
 
-        $http.get('../data/gallery.json').success(function(data) {
+        $http.get('./data/gallery.json').success(function(data) {
             $scope.imgItem = data;
 
         });
