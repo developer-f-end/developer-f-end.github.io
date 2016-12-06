@@ -38,6 +38,9 @@ br{
     width: 970px;
     margin: 0 auto !important;
 }
+.body.resize{
+  padding-bottom: 40px;
+}
 .main{
     margin: 0 auto;
 }
@@ -76,7 +79,7 @@ h1 a, h1 a:hover {
     min-height: 30px;
     text-decoration:none;
 }
-h1 span {
+h1 .site-name-f {
     font-weight:bold;
     color:#8fc400;
 }
@@ -406,6 +409,26 @@ p.response {
 .contact-form input.ng-valid {
   outline: 1px solid lightgreen;
 }
+/*gallery*/
+.gallery-text{
+  padding: 40px 0;
+}
+
+.gallery-img{
+  padding: 40px 20px;
+}
+.gallery-text-left, .gallery-text-right{
+  float: left;
+  width: calc(50% - 12px);
+  box-sizing: border-box;
+  text-align: justify;
+}
+.gallery-text-left{
+  margin-right: 24px;
+}
+.body .gallery-text-par{
+  padding: 10px;
+}
 
 .small-gallery img{
   width: 68px;
@@ -425,7 +448,4 @@ p.response {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-}
-.container-gallery{
-  min-height: 600px;
 }
